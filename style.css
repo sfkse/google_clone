@@ -108,3 +108,35 @@
 .main__text {
   font-size: 13px;
 }
+.footer {
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu--left,
+.footer__menu--right {
+  display: flex;
+}
+.footer__menu--text {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.footer__menu--text--link {
+  color: #000;
+  text-decoration: none;
+  color: #5f6368;
+}
+.footer__menu--text--link:hover {
+  text-decoration: underline;
+}
+.footer__location,
+.footer__menu {
+  padding: 1rem;
+}
+.footer__location {
+  border-bottom: 0.3px solid #e4e4e4;
+  font-size: 12px;
+}
