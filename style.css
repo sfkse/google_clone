@@ -119,6 +119,7 @@ body {
 .footer__menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer__menu--left,
 .footer__menu--right {
